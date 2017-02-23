@@ -1,0 +1,141 @@
+  * {
+      margin: 0px;
+      padding: 0px;
+  }
+  .main {
+      width: 800px;
+      height: 600px;
+      margin: 0px auto;
+      border: 2px solid #6dbe45
+  }
+  .main .header {
+      width: 800px;
+      height: 100px;
+      background: white;
+  }
+  .header .logo {
+      height: 70px;
+      width: 70px;
+      float: left;
+      margin-left: 5px;
+      margin-top: 5px
+  }
+  .header .title {
+      float: left;
+      margin-top: 30px;
+      margin-left: 10px;
+      font-size: 40px;
+      font-family: -webkit-pictograph;
+      float: left;
+      color: #6dbe45
+  }
+  .title span {
+      color: #6dbe45;
+  }
+  .header .icon {
+      float: right;
+      width: 30px;
+      height: 30px;
+      margin-top: 30px;
+      padding: 1px;
+      margin-right: 5px;
+  }
+  .menu {
+      width: 800px;
+      height: 40px;
+      background: #4CAF50;
+  }
+  .menu .nav {
+      list-style: none;
+      z-index: +1;
+      position: relative;
+  }
+  .menu .nav li {
+      float: left;
+      font-size: 20px;
+      width: 200px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      background: #4CAF50;
+  }
+  .menu .nav li a {
+      text-decoration: none;
+      color: white;
+  }
+  .menu .nav li:hover {
+      background: #4CAF50;
+      font-size: 22px;
+  }
+  .menu .nav .subnav {
+      list-style: none;
+      visibility: hidden
+  }
+  .menu .nav .subnav li {
+      border-bottom: 2px solid white;
+  }
+  .menu .nav li:hover .subnav {
+      visibility: visible
+  }
+  .menu .nav .subnav .subnav1 {
+      list-style: none;
+      visibility: hidden
+  }
+  .menu .nav .subnav li:hover .subnav1 {
+      visibility: visible;
+      margin-left: 200px;
+      margin-top: -42px;
+  }
+  .main .slider .sliderimage {
+      width: 800px;
+      height: 220px;
+  }
+  .content .box1 {
+      width: 150px;
+      height: 200px;
+      float: left
+  }
+  .box1 .nav {
+      list-style: none;
+  }
+  .box1 .nav li {
+      background: url(../img/bg1.png);
+      background-size: 105% 130%;
+      height: 50px;
+      background-position: -8px -3px;
+      line-height: 50px;
+      margin-left: 2px;
+  }
+  .box1 .nav li a {
+      text-decoration: none;
+      font-size: 17px;
+      color: white;
+      text-align: center;
+      margin-left: 35px;
+  }
+  .box1 .nav li:first-child {
+      margin-top: 2px;
+  }
+  .box1 .nav li:hover {
+      background: url(../img/bg2.png);
+      background-size: 105% 130%;
+      background-position: -8px -3px;
+  }
+  .content .box2 .title {
+      float: left;
+      margin-left: 200px;
+      margin-top: 10px;
+      color: red;
+      font-family: arial;
+      border-bottom: 2px solid red;
+  }
+  .content .box2 .text {
+      float: left;
+      width: 500px;
+      /* margin: 10px; */
+      text-align: justify;
+      margin-left: 80px;
+      margin-top: 30px;
+      line-height: 22px;
+      color: #005fad;
+  }
